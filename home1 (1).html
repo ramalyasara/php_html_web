@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="width:450px;margin-top:50px;">
+  <h1>User Login Form</h1>
+  <form action="validate.php" method="post">
+  <div class="form-group">
+    <label for="fname">Username:</label>
+    <input type="text" class="form-control" name="username">
+  </div>
+  <div class="form-group">
+    <label for="fname">Password</label>
+    <input type="password" class="form-control" name="password">
+  </div>
+  <button type="reset" class="btn btn-default">Reset</button>
+  <button type="submit" class="btn btn-default">Login</button>
+</form>
+</div>
+
+</body>
+</html>
